@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+.header{
+    width: 1360px;
+    height: 385px;
+    background: #000000;
+}
+.nav{
+    display: flex;
+    padding: 0 50px;
+}
+.nav h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+    color: #FFFDFD;
+    padding-top: 30px;
+}
+.nav ul{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #FFFFFF;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 100px;
+    gap: 40px;
+}
+.search{
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    margin-left: 331px;
+    margin-top: 20px;
+}
+.search h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #666666;
+    padding-top: 14px;
+    padding-left: 15px;
+}
+.search img{
+    position: relative;
+    left: 275px;
+    bottom: 25px;
+}
+.header-content{
+    margin-top: 30px;
+    background-image: url(img/back.png);
+}
+.header-content h2{
+    width: 400px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px; 
+    color: #FFFFFF; 
+    margin-left: 45px;  
+}
+.btn{
+    width: 109px;
+    height: 55px;
+    background: #76B900;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    color: #000000;
+    border: none;
+    margin-top: 89px;
+    margin-left: 45px;
+}
+.section{
+    width: 1360px;
+    background-color: whitesmoke;
+}
+.section h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;   
+    color: #000000;
+    text-align: center;
+    padding-top: 45px;
+}
+.cards{
+    display: flex;
+}
+.card{
+    width: 290px;
+    height: 308px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 17px 27px -4px #00000040;
+}
+.card h4{
+    width: 178px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;  
+    color: #000000;  
+    padding-top: 20px;
+    margin-left: 56px;
+}
+.card p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;   
+    color: #000000;
+    padding-top: 37px;
+    margin-left: 96px;
+}
+.img{
+    position: relative;
+    bottom: 22px;
+    left: 170px;
+}
+.nvidia{
+    width: 1280px;
+    height: 351px;
+    background: #FFFCFC;
+    margin-top: 40px;    
+    margin-left: 38px;
+}
+.nvidia img{
+    margin-top: 29px;
+    margin-left: 12px;
+}
+.nvidia h4{
+    width: 416px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    color: #67B900;
+    margin-left: 756px;
+    margin-top: -320px;
+}
+.nvidia p{
+    width: 399px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;  
+    color: #000000; 
+    padding-top: 28px;
+    margin-left: 756px; 
+}
+.bn{
+    width: 233px;
+    height: 62px;
+    background: #76B900;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;  
+    color: #000000;
+    border: none;
+    margin-left: 756px;
+    margin-top: 58px;  
+}
+.nvi{
+    width: 1276px;
+    height: 211px;
+    background-color: #FFFCFC;  
+    margin-left: 40px;  
+}
+.nvi img{
+    padding-top: 100px;
+    padding-left: 25px;
+}
+.nvi h5{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.78px;
+    color: #666666;
+    margin-left: 951px;
+    margin-top: -35px;
+}
